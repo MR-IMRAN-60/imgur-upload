@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MR-IMRAN-60/imgur-upload"
+  },
   "keywords": [
     "imgur",
     "upload",
@@ -15,6 +19,11 @@
   ],
   "author": "IMRAN AHMED",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MR-IMRAN-60/imgur-upload/issues"
+  },
+  "homepage": "https://github.com/MR-IMRAN-60/imgur-upload#readme",
+
   "dependencies": {
     "request": "^2.88.2",
     "express": "^4.17.1"
