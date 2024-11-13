@@ -19,13 +19,14 @@
 
 ```js
 
-const {imgur} = require("imgur-uploader-api")
+const { Imgur } = require('imgur-uploader-api');
 
-async function upload(url){
-  const response = await imgur(url)
-  console.log(response)
-  
-}
-
-upload(url)
+(async () => {
+  try {
+    const result = await Imgur('https://example.com/image.jpg');
+    console.log(result);
+  } catch (error) {
+    console.error(error.message);
+  }
+})();
 ```
