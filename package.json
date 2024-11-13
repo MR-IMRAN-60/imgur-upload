@@ -1,10 +1,14 @@
 {
   "name": "imgur-upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An API to upload images or videos to Imgur from a URL.",
   "main": "api.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MR-IMRAN-60/imran-downloadmedia"
   },
   "keywords": [
     "imgur",
@@ -15,6 +19,10 @@
   ],
   "author": "IMRAN AHMED",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MR-IMRAN-60/imran-downloadmedia/issues"
+  },
+  "homepage": "https://github.com/MR-IMRAN-60/imran-downloadmedia#readme",
   "dependencies": {
     "request": "^2.88.2",
     "express": "^4.17.1"
