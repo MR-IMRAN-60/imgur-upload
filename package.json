@@ -1,5 +1,5 @@
 {
-  "name": "imgur-uploader",
+  "name": "imgur-uploader-api",
   "version": "1.0.1",
   "description": "An API to upload images or videos to Imgur from a URL.",
   "main": "api.js",
