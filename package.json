@@ -1,6 +1,6 @@
 {
   "name": "imgur-uploader-mmok",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple Imgur image/video upload API",
   "main": "lib/upload.js",
   "scripts": {
