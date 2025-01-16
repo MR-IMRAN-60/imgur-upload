@@ -13,13 +13,13 @@
 
 ## Instalation :
 ```bash
-> npm i imgur-uploader-api
+> npm i imgur-upload-apis
 ```
 
 
 ```js
 
-const { Imgur } = require('imgur-uploader-api');
+const { Imgur } = require('imgur-upload-apis');
 
 (async () => {
   try {
